@@ -8,15 +8,15 @@ Below are  screenshots of the process that I took to create a file and then comp
 
 Screenshot of test.csv and history of it's creation:
 
-![Alt text](test csv screenshot.png)
-![Alt text](Git history 1.png)
+![Alt text](test_csv_screenshot.png)
+![Alt text](Git_history_1.png)
 
 Screenshot of terminal commands to show the process of completely removing it's history:
 
 
-![Alt text](Terminal History.png)
+![Alt text](Terminal_history.png)
 
 Screenshot of history after test.csv has been removed:
 
 
-![Alt text](Git history 2.png)
+![Alt text](Git_history_2.png)

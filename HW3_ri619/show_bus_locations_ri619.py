@@ -1,5 +1,3 @@
-#This file should take in live bus locations based on certain routes
-
 import requests
 import os
 import sys
@@ -20,7 +18,8 @@ API = sys.argv[1]
 bus_line = sys.argv[2]
     
 
-#Use givent API key and bus line to pull relevant data from MTA.
+#Use given API key and bus line to pull relevant data from MTA. Load data into
+#  a response variable.
 url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" + str(API) + "&VehicleMonitoringDetailLevel=calls&LineRef=" + str(bus_line)
 response = urllib.urlopen(url)
 data = response.read()
@@ -31,6 +30,7 @@ data = json.loads(data)
 # currently active.
 veh_monitoring = data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']
 num_buses = len(veh_monitoring)
+
 
 print("Bus Line: " + bus_line)
 print("Number of Active Buses: " + str(num_buses))

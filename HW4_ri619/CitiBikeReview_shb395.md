@@ -1,6 +1,6 @@
 ## Sam's review of the null and alternative hypotheses:
 
-The null (H<sub>0</sub>) and alternative ($H_1$) hypotheses statements are correct.
+The null (H<sub>0</sub>) and alternative (H<sub>1</sub>) hypotheses statements are correct.
 
 ## Sam's review of the data processing:
 

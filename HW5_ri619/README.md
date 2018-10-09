@@ -41,4 +41,4 @@ Path Analysis	| 1 - Age of Women  2 - Place of residence  3 - Religion  4 - Soci
 
 ![main plot](journalANOVA.png)
 
-![main plot](Logistic regression plot.png)
+![main plot](Logistic_regression_plot.png)

@@ -1,31 +1,12 @@
-# PUI2018 HW 5 Session 2.
-
-## ASSIGNED READING:
-
-Read about the [Open Data Laws and the status of their implementation](https://www.wnyc.org/story/experts-agencies-suggest-nyc-open-data-law-lacks-resources/) and what is the [PLUTO data](https://www.wired.com/2013/08/nyc-pluto-data-map-party/)
+# PUI2018 HW 6.
 
 
-## ASSIGNMENTS:
+## Assignment 1
 
-### Submission Info:
-
-For Assignment 1: Submit through notebook.
-
-For Assignment 2: Submission through notebook.
-
-![https://xkcd.com/327/](exploits_of_a_mom.png)
+This assignment consisted of following a Jupyter notebook and doing basic data wrangling with Pandas. It involved looking at Land Use data for the 5 boroughs and analyzing what types of buildings (and in what number) exist in Manhattan and in Brooklyn.
 
 
-## Assignment 1: Practice pandas
+## Assignment 2
 
-Follow the skeleton notebook [here](pandas_PLUTO_exercise_instructions.ipynb). There is a notebook in [Lab6_fb55_session1](https://github.com/fedhere/PUI2018_fb55/tree/master/Lab6_fb55_session1) called readingData.ipynb with some dataframe manipulation examples and several more in [the data wrangling folder in UInotebooks](https://github.com/fedhere/UInotebooks/tree/master/dataWrangling) inclusing the transcript of [Chapter 7](https://github.com/fedhere/UInotebooks/blob/master/dataWrangling/PandasDataWrangling-Chap7.ipynb) of Python for Data Analysis (Pandas manual)
-  
-### Grading 
 
-You will be graded on the outputs of the notebook: the outputs should be as they are in the [skeleton notebook](pandas_PLUTO_exercise_instructions.ipynb) . 
-
-## Assignment 2: Follow Mr. Kryaschev's instructions
-SQL lab [Instructions](https://serv.cusp.nyu.edu/~hvo/files/SQL_Lab.pdf) (also [here] (https://github.com/fedhere/UInotebooks/blob/master/slides2018/SQL_Lecture_Lab.pdf))
-
-return the lab as a jupyter notebook using the [SQL_query notebook](https://github.com/fedhere/PUI2018_fb55/blob/master/HW6_fb55_session1/SQL_query.ipynb) to start (in this repo) and submitting the sql queries through the carto API
-
+This assignment consisted of using the newly learned SQL commands and taking data from CartoDB on Citibike. It involved taking very particular sets of data like only stations within 500m of Times Square and average trip durations. 
